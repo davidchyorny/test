@@ -1,0 +1,162 @@
+
+*{
+  box-sizing:border-box;
+}
+html,
+body {
+    height: 1600px;
+        box-shadow:
+         0 1px 4px rgba(0, 0, 0, .3),
+         -23px 0 20px -23px rgba(0, 0, 0, .8),
+         23px 0 20px -23px rgba(0, 0, 0, .8),
+         0 0 40px rgba(0, 0, 0, .1) inset;
+      }
+
+
+body {
+  max-width: 1270px;	
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #3E3E3E;
+}
+
+a:hover {
+	color: #e2914b98;
+}
+
+li {
+  list-style: none;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* ===== NAVIGATION =======*/
+.header {
+	position: relative;
+  height: 100vh;
+}
+
+.nav-container {
+	display:flex;
+  justify-content: space-between;
+  align-items:center;
+  background: rgb(255, 255, 255); /* Цвет фона */
+  position: sticky;
+  top: 0; /* Положение сверху */
+  height: 80px;
+  }
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	height: 51px;
+	margin-top: 3px;
+    margin: 40;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.menu li {
+	margin-right: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #b8713388;
+    display: inline-block;
+    padding: 10px 20px;
+    border-bottom: 5px solid #e2924b;
+}
+/* Container holding the image and the text */
+.container {
+    position: sticky;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: #bd7811;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 200;
+}
+button[name="run_script"] { 
+    border: none;
+    border-radius: 7px;
+    padding: 10px 25px;
+    background: #ff9900;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+  button[name="run_script"]:hover { 
+    background: #ff6600;
+  } 
+.container {
+    float: left; /* Обтекание по правому краю */
+    background: rgb(255, 255, 255); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    width: 400px; /* Ширина блока */
+    margin-left: 70px;/* Отступ слева */
+    margin: 20px  35px;
+   }
+   .layer2 {
+    background: rgb(255, 255, 255); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    margin: 20px  35px;
+    
+   }
+   .layer3 {
+text-align: center;
+}
+   h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif; /* Рубленый шрифт заголовка */
+   } 
+   p {
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic;
+   }
+
+   .container1 {
+       margin-top: 150;
+   }
+   .fig {
+    text-align: center; /* Выравнивание по центру */ 
+   }
+   .layer3{
+    font-family: Comic Sans MS, Comic Sans, cursive	; /* Шрифт с засечками */
+   }
+
+   .kontakt{
+     margin-left: 40;
+     font-size: 10;
+   }
+   
+.font{
+align-self: center;
+}
+
+.footer hr{
+  width: 1270px;
+  border: none; /* Убираем границу */
+  background-color: #c47500; /* Цвет линии */
+  height: 3px; /* Толщина линии */
+}
+
+.footer p{
+  margin: 40;
+  text-align: center;
+}

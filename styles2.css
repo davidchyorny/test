@@ -1,0 +1,188 @@
+*{
+  box-sizing:border-box;
+}
+html,
+body {
+    height: 1040px;
+        box-shadow:
+         0 1px 4px rgba(0, 0, 0, .3),
+         -23px 0 20px -23px rgba(0, 0, 0, .8),
+         23px 0 20px -23px rgba(0, 0, 0, .8),
+         0 0 40px rgba(0, 0, 0, .1) inset;
+      }
+
+
+body {
+  max-width: 1270px;	
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #3E3E3E;
+}
+
+a:hover {
+	color: #e2914b98;
+}
+
+li {
+  list-style: none;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* ===== NAVIGATION =======*/
+.header {
+	position: relative;
+  height: 100vh;
+}
+
+.nav-container {
+	display:flex;
+  justify-content: space-between;
+  align-items:center;
+  background: rgb(255, 255, 255); /* Цвет фона */
+  position: sticky;
+  top: 0; /* Положение сверху */
+  height: 80px;
+  }
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	height: 51px;
+	margin-top: 3px;
+    margin: 40;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+.menu li {
+	margin-right: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #b8713388;
+    display: inline-block;
+    padding: 10px 20px;
+    border-bottom: 5px solid #e2924b;
+}
+
+
+
+
+
+/* form styles */
+form .row {
+  
+  display: block;
+  padding: 7px 8px;
+  margin-bottom: 7px;
+  }
+  form .row:hover {
+  background: #f1f7fa;
+  }
+  
+  form label {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 120px;
+  padding: 6px 0;
+  color: #464646;
+  vertical-align: top;
+  }
+  form .req { color: #ca5354; }
+  
+  form .note {
+    
+  font-size: 1.2em;
+  line-height: 1.33em;
+  font-weight: normal;
+  padding: 2px 7px;
+  margin-bottom: 10px;
+  }
+  
+  form input:focus, form textarea:focus { outline: none; }
+  
+  /* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+  ::-webkit-input-placeholder { color: #aaafbd; font-style: italic; } /* WebKit */
+  :-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 4 to 18 */
+  ::-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 19+ */
+  :-ms-input-placeholder { color: #aaafbd; font-style: italic; } /* Internet Explorer 10+ */
+  
+  form .txt {
+  display: inline-block;
+  padding: 8px 9px;
+  padding-right: 30px;
+  width: 240px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.35em;
+  font-weight: normal;
+  color: #898989;
+  }
+
+
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: #bd7811;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 200;
+}
+button[name="run_script"] { 
+    border: none;
+    border-radius: 7px;
+    padding: 10px 25px;
+    background: #ff9900;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+  button[name="run_script"]:hover { 
+    background: #ff6600;
+  }
+
+#adres{
+  margin-right: 720;
+  font-size: 20;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#footer hr{
+  bottom: 1100;
+  width: 1270px;
+  border: none; /* Убираем границу */
+  background-color: #c47500; /* Цвет линии */
+  height: 3px; /* Толщина линии */
+  
+  
+}
+
+#footer p{
+  height: 100%;
+  top: 5;
+  bottom:0;
+  margin: 40;
+  text-align: center;
+  
+}
+#footer {
+  align-items: center;
+  position:absolute;
+  bottom:0;
+  height: 0px;   /* Высота блока "footer" */
+}
